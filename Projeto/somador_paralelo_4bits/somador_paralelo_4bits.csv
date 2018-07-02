@@ -1,0 +1,45 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+# File: C:\Users\marcossuzuki\Sist_digitais\Projeto\somador_paralelo_4bits\somador_paralelo_4bits.csv
+# Generated on: Mon Jul 02 15:17:09 2018
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair
+A1[0],Input,PIN_L22,5,B5_N1,PIN_D9,,,,
+A1[1],Input,PIN_L21,,,PIN_G3,,,,
+A1[2],Input,PIN_M22,,,PIN_M5,,,,
+A1[3],Input,PIN_V22,,,PIN_H4,,,,
+B1[0],Input,PIN_W22,,,PIN_Y6,,,,
+B1[1],Input,PIN_U22,,,PIN_A3,,,,
+B1[2],Input,PIN_U11,,,PIN_H2,,,,
+B1[3],Input,PIN_M2,,,PIN_AB3,,,,
+Cin,Input,PIN_M1,,,PIN_D2,,,,
+Cout,Output,PIN_R20,,,PIN_F2,,,,
+aS71,Output,PIN_J2,,,PIN_E2,,,,
+aS72,Output,PIN_E1,,,PIN_H16,,,,
+bS71,Output,PIN_J1,,,PIN_G5,,,,
+bS72,Output,PIN_H6,,,PIN_A5,,,,
+cS71,Output,PIN_F2,,,PIN_D1,,,,
+cS72,Output,PIN_H5,,,PIN_AA5,,,,
+dS71,Output,PIN_H2,,,PIN_E1,,,,
+dS72,Output,PIN_H4,,,PIN_B8,,,,
+eS71,Output,PIN_H1,,,PIN_H6,,,,
+eS72,Output,PIN_G3,,,PIN_C13,,,,
+fS71,Output,PIN_F1,,,PIN_H5,,,,
+fS72,Output,PIN_D2,,,PIN_W7,,,,
+gS71,Output,PIN_E2,,,PIN_F4,,,,
+gS72,Output,PIN_D1,,,PIN_M6,,,,
