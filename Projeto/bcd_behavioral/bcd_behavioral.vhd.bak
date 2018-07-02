@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_signed.all;
+
+ENTITY bcd_behavioral IS
+	PORT( Av	: IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+			Bv : OUT STD_LOGIC_VECTOR (7 DOWNTO 0));
+END four_bit_adder_vector_behavioral;
+
+ARCHITECTURE behavioral OF bcd_behavioral IS
+	SIGNAL aux: STD_LOGIC_VECTOR(7 DOWNTO 0);
+BEGIN
+	WITH Av(3 DOWNTO 0) SELECT
+		aux(3 DOWNTO 0) <= 	Av(3 DOWNTO 0) WHEN "0000" TO "1001";
+	WITH Av(3 DOWNTO 0) SELECT
+		aux(7 DOWNTO 4) <= "0001" WHEN "1010" TO "1111";
+END behavioral;

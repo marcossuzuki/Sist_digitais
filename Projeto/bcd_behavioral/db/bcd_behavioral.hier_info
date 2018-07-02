@@ -1,0 +1,47 @@
+|bcd_behavioral
+Av[0] => LessThan0.IN8
+Av[0] => LessThan1.IN8
+Av[0] => Selector2.IN5
+Av[0] => Equal0.IN3
+Av[0] => Equal1.IN2
+Av[0] => Equal2.IN3
+Av[0] => Equal3.IN2
+Av[0] => Equal4.IN3
+Av[0] => Equal5.IN3
+Av[1] => LessThan0.IN7
+Av[1] => LessThan1.IN7
+Av[1] => Selector1.IN5
+Av[1] => Equal0.IN1
+Av[1] => Equal1.IN1
+Av[1] => Equal2.IN2
+Av[1] => Equal3.IN3
+Av[1] => Equal4.IN2
+Av[1] => Equal5.IN2
+Av[2] => LessThan0.IN6
+Av[2] => LessThan1.IN6
+Av[2] => Selector0.IN5
+Av[2] => Equal0.IN2
+Av[2] => Equal1.IN3
+Av[2] => Equal2.IN1
+Av[2] => Equal3.IN1
+Av[2] => Equal4.IN1
+Av[2] => Equal5.IN1
+Av[3] => LessThan0.IN5
+Av[3] => LessThan1.IN5
+Av[3] => aux.DATAB
+Av[3] => Equal0.IN0
+Av[3] => Equal1.IN0
+Av[3] => Equal2.IN0
+Av[3] => Equal3.IN0
+Av[3] => Equal4.IN0
+Av[3] => Equal5.IN0
+Bv[0] <= Selector2.DB_MAX_OUTPUT_PORT_TYPE
+Bv[1] <= Selector1.DB_MAX_OUTPUT_PORT_TYPE
+Bv[2] <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+Bv[3] <= aux.DB_MAX_OUTPUT_PORT_TYPE
+Bv[4] <= aux.DB_MAX_OUTPUT_PORT_TYPE
+Bv[5] <= <GND>
+Bv[6] <= <GND>
+Bv[7] <= <GND>
+
+
