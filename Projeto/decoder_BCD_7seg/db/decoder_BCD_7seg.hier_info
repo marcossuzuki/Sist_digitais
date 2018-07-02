@@ -1,0 +1,36 @@
+|decoder_BCD_7seg
+A => aS7.IN0
+A => dS7.IN1
+A => fS7.IN1
+A => gS7.IN1
+B => aS7.IN0
+B => cS7.IN1
+B => dS7.IN0
+B => fS7.IN0
+B => aS7.IN0
+B => bS7.IN1
+B => dS7.IN0
+C => aS7.IN1
+C => bS7.IN0
+C => dS7.IN0
+C => dS7.IN1
+C => bS7.IN0
+C => cS7.IN0
+C => dS7.IN1
+D => aS7.IN1
+D => bS7.IN1
+D => cS7.IN1
+D => dS7.IN1
+D => aS7.IN1
+D => bS7.IN1
+D => dS7.IN1
+D => fS7.IN1
+aS7 <= aS7.DB_MAX_OUTPUT_PORT_TYPE
+bS7 <= bS7.DB_MAX_OUTPUT_PORT_TYPE
+cS7 <= cS7.DB_MAX_OUTPUT_PORT_TYPE
+dS7 <= dS7.DB_MAX_OUTPUT_PORT_TYPE
+eS7 <= dS7.DB_MAX_OUTPUT_PORT_TYPE
+fS7 <= fS7.DB_MAX_OUTPUT_PORT_TYPE
+gS7 <= gS7.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,319 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/26/2018 01:11:34"
+                                                                        
+// Verilog Self-Checking Test Bench (with test vectors) for design :    somador_bin_par
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module somador_bin_par_vlg_sample_tst(
+	Av,
+	Bv,
+	C1in,
+	sampler_tx
+);
+input [3:0] Av;
+input [3:0] Bv;
+input  C1in;
+output sampler_tx;
+
+reg sample;
+time current_time;
+always @(Av or Bv or C1in)
+                                                                                
+begin                                                 
+ if ($realtime > 0)                                   
+ begin                                                
+	if ($realtime == 0 || $realtime != current_time)  
+	begin									          
+		if (sample === 1'bx)                          
+			sample = 0;                               
+		else                                          
+			sample = ~sample;                         
+	end										          
+	current_time = $realtime;					      
+ end                                                  
+end                                                   
+
+assign sampler_tx = sample;
+endmodule
+
+module somador_bin_par_vlg_check_tst (
+	C1out,
+	Sv,
+	sampler_rx
+);
+input  C1out;
+input [3:0] Sv;
+input sampler_rx;
+
+reg  C1out_expected;
+reg [3:0] Sv_expected;
+
+reg  C1out_prev;
+reg [3:0] Sv_prev;
+
+reg [3:0] Sv_expected_prev;
+
+reg [3:0] last_Sv_exp;
+
+reg trigger;
+
+integer i;
+integer nummismatches;
+
+reg [1:2] on_first_change ;
+
+
+initial
+begin
+trigger = 0;
+i = 0;
+nummismatches = 0;
+on_first_change = 2'b1;
+end
+
+// update real /o prevs
+
+always @(trigger)
+begin
+	C1out_prev = C1out;
+	Sv_prev = Sv;
+end
+
+// update expected /o prevs
+
+always @(trigger)
+begin
+	Sv_expected_prev = Sv_expected;
+end
+
+
+// expected Sv[ 3 ]
+initial
+begin
+	Sv_expected[3] = 1'bX;
+	Sv_expected[3] = #99000 1'b0;
+end 
+// expected Sv[ 2 ]
+initial
+begin
+	Sv_expected[2] = 1'bX;
+	Sv_expected[2] = #99000 1'b0;
+end 
+// expected Sv[ 1 ]
+initial
+begin
+	Sv_expected[1] = 1'bX;
+	Sv_expected[1] = #99000 1'b0;
+end 
+// expected Sv[ 0 ]
+initial
+begin
+	Sv_expected[0] = 1'bX;
+	Sv_expected[0] = #99000 1'b0;
+end 
+// generate trigger
+always @(C1out_expected or C1out or Sv_expected or Sv)
+begin
+	trigger <= ~trigger;
+end
+
+always @(posedge sampler_rx or negedge sampler_rx)
+begin
+`ifdef debug_tbench
+	$display("Scanning pattern %d @time = %t",i,$realtime );
+	i = i + 1;
+	$display("| expected C1out = %b | expected Sv = %b | ",C1out_expected_prev,Sv_expected_prev);
+	$display("| real C1out = %b | real Sv = %b | ",C1out_prev,Sv_prev);
+`endif
+	if (
+		( Sv_expected_prev[0] !== 1'bx ) && ( Sv_prev[0] !== Sv_expected_prev[0] )
+		&& ((Sv_expected_prev[0] !== last_Sv_exp[0]) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Sv[0] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Sv_expected_prev);
+		$display ("     Real value = %b", Sv_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_Sv_exp[0] = Sv_expected_prev[0];
+	end
+	if (
+		( Sv_expected_prev[1] !== 1'bx ) && ( Sv_prev[1] !== Sv_expected_prev[1] )
+		&& ((Sv_expected_prev[1] !== last_Sv_exp[1]) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Sv[1] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Sv_expected_prev);
+		$display ("     Real value = %b", Sv_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_Sv_exp[1] = Sv_expected_prev[1];
+	end
+	if (
+		( Sv_expected_prev[2] !== 1'bx ) && ( Sv_prev[2] !== Sv_expected_prev[2] )
+		&& ((Sv_expected_prev[2] !== last_Sv_exp[2]) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Sv[2] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Sv_expected_prev);
+		$display ("     Real value = %b", Sv_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_Sv_exp[2] = Sv_expected_prev[2];
+	end
+	if (
+		( Sv_expected_prev[3] !== 1'bx ) && ( Sv_prev[3] !== Sv_expected_prev[3] )
+		&& ((Sv_expected_prev[3] !== last_Sv_exp[3]) ||
+			on_first_change[2])
+	)
+	begin
+		$display ("ERROR! Vector Mismatch for output port Sv[3] :: @time = %t",  $realtime);
+		$display ("     Expected value = %b", Sv_expected_prev);
+		$display ("     Real value = %b", Sv_prev);
+		nummismatches = nummismatches + 1;
+		on_first_change[2] = 1'b0;
+		last_Sv_exp[3] = Sv_expected_prev[3];
+	end
+
+	trigger <= ~trigger;
+end
+initial 
+
+begin 
+$timeformat(-12,3," ps",6);
+#4000000;
+if (nummismatches > 0)
+	$display ("%d mismatched vectors : Simulation failed !",nummismatches);
+else
+	$display ("Simulation passed !");
+$finish;
+end 
+endmodule
+
+module somador_bin_par_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [3:0] Av;
+reg [3:0] Bv;
+reg C1in;
+// wires                                               
+wire C1out;
+wire [3:0] Sv;
+
+wire sampler;                             
+
+// assign statements (if any)                          
+somador_bin_par i1 (
+// port map - connection between master ports and signals/registers   
+	.Av(Av),
+	.Bv(Bv),
+	.C1in(C1in),
+	.C1out(C1out),
+	.Sv(Sv)
+);
+// Av[ 3 ]
+initial
+begin
+	Av[3] = 1'b0;
+	Av[3] = #1600000 1'b1;
+	Av[3] = #1600000 1'b0;
+end 
+// Av[ 2 ]
+initial
+begin
+	repeat(2)
+	begin
+		Av[2] = 1'b0;
+		Av[2] = #800000 1'b1;
+		# 800000;
+	end
+	Av[2] = 1'b0;
+end 
+// Av[ 1 ]
+always
+begin
+	Av[1] = 1'b0;
+	Av[1] = #400000 1'b1;
+	#400000;
+end 
+// Av[ 0 ]
+always
+begin
+	Av[0] = 1'b0;
+	Av[0] = #200000 1'b1;
+	#200000;
+end 
+// Bv[ 3 ]
+always
+begin
+	Bv[3] = 1'b0;
+	Bv[3] = #100000 1'b1;
+	#100000;
+end 
+// Bv[ 2 ]
+always
+begin
+	Bv[2] = 1'b0;
+	Bv[2] = #50000 1'b1;
+	#50000;
+end 
+// Bv[ 1 ]
+always
+begin
+	Bv[1] = 1'b0;
+	Bv[1] = #25000 1'b1;
+	#25000;
+end 
+// Bv[ 0 ]
+always
+begin
+	Bv[0] = 1'b0;
+	Bv[0] = #12500 1'b1;
+	#12500;
+end 
+
+// C1in
+initial
+begin
+	C1in = 1'b0;
+end 
+
+somador_bin_par_vlg_sample_tst tb_sample (
+	.Av(Av),
+	.Bv(Bv),
+	.C1in(C1in),
+	.sampler_tx(sampler)
+);
+
+somador_bin_par_vlg_check_tst tb_out(
+	.C1out(C1out),
+	.Sv(Sv),
+	.sampler_rx(sampler)
+);
+endmodule
+

@@ -1,0 +1,13 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY bcd IS
+	PORT( BIN	: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
+			BCD0, BCD1 	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0));
+END bcd;
+
+ARCHITECTURE LogicFunction OF bcd IS
+BEGIN
+
+	
+END LogicFunction;

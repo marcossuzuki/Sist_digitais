@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY segments7 IS
+	PORT( A,B,C,D	: IN STD_LOGIC;
+			a,b,c,d,e,f,g 	: OUT STD_LOGIC);
+END segments7;
+
+ARCHITECTURE LogicFunction OF segments7 IS
+BEGIN
+		BCD0(0) <= BIN(0);
+		BCD0(1) <= (BIN(3) AND BIN(2) AND NOT BIN(1)) OR (NOT BIN(3) AND BIN(1));
+		BCD0(2) <= (NOT BIN(3) AND BIN(2)) OR (BIN(2) AND BIN(1));
+		BCD0(3) <= (BIN(3) AND NOT BIN(2) AND NOT BIN(1));
+		BCD1(0) <= (BIN(3) AND BIN(2)) OR (BIN(3) AND BIN(1));
+		BCD1(3 DOWNTO 1) <= "000";
+END LogicFunction;

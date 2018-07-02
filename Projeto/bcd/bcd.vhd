@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY bcd IS
+	PORT( BIN	: IN STD_LOGIC_VECTOR (3 DOWNTO 0);
+			BCD0, BCD1 	: OUT STD_LOGIC_VECTOR (3 DOWNTO 0));
+END bcd;
+
+ARCHITECTURE LogicFunction OF bcd IS
+BEGIN
+		BCD0(0) <= BIN(0);
+		BCD0(1) <= (BIN(3) AND BIN(2) AND NOT BIN(1)) OR (NOT BIN(3) AND BIN(1));
+		BCD0(2) <= (NOT BIN(3) AND BIN(2)) OR (BIN(2) AND BIN(1));
+		BCD0(3) <= (BIN(3) AND NOT BIN(2) AND NOT BIN(1));
+		BCD1(0) <= (BIN(3) AND BIN(2)) OR (BIN(3) AND BIN(1));
+		BCD1(3 DOWNTO 1) <= "000";
+END LogicFunction;

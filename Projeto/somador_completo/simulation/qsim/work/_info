@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\marco\Downloads\Projeto\somador_completo\simulation\qsim
+vsomador_completo
+Z1 !s100 QO;:Mc^eG@H[LKb`<cSnI3
+Z2 I]NA41A2BkU5RAW9b0M96P3
+Z3 V9UDLh?D@6`bOcBMFOBG9z2
+Z4 dC:\Users\marco\Downloads\Projeto\somador_completo\simulation\qsim
+Z5 w1529979552
+Z6 8somador_completo.vo
+Z7 Fsomador_completo.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|somador_completo.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1529979553.977000
+Z12 !s107 somador_completo.vo|
+!s101 -O0
+vsomador_completo_vlg_check_tst
+!i10b 1
+!s100 B6o[^0CXb=LMhGz@^nQ=52
+I^=Wh12d1jI3e7gAIGmnib3
+Z13 V^cg]AOHmaE>;AI>?3M;Sl0
+R4
+R5
+Z14 8somador_completo.vt
+Z15 Fsomador_completo.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z16 !s108 1529979554.211000
+Z17 !s107 somador_completo.vt|
+Z18 !s90 -work|work|somador_completo.vt|
+!s101 -O0
+R10
+vsomador_completo_vlg_sample_tst
+!i10b 1
+Z19 !s100 ZajDF3BDl^J>A0n:KDbAY1
+Z20 IV[C_:KXi:?Ab@jY4ca`>b1
+Z21 V>oUBGk8ejP:jJN2RB:?1H1
+R4
+R5
+R14
+R15
+L0 29
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R10
+vsomador_completo_vlg_vec_tst
+!i10b 1
+!s100 kMnO[@nPOSlWZR?aoXz?T0
+IZ3_LgDmQ2L]jSz`P2P6MF1
+Z22 VSL7`djA5a5K=l^YLdAN;R2
+R4
+R5
+R14
+R15
+Z23 L0 183
+R8
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R10

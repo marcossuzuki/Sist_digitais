@@ -1,0 +1,41 @@
+# do somador_bin_par.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_bin_par
+# 
+# Top level modules:
+# 	somador_bin_par
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_bin_par_vlg_sample_tst
+# -- Compiling module somador_bin_par_vlg_check_tst
+# -- Compiling module somador_bin_par_vlg_vec_tst
+# 
+# Top level modules:
+# 	somador_bin_par_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.somador_bin_par_vlg_vec_tst 
+# Loading work.somador_bin_par_vlg_vec_tst
+# Loading work.somador_bin_par
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading work.somador_bin_par_vlg_sample_tst
+# Loading work.somador_bin_par_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ERROR! Vector Mismatch for output port Sv[0] :: @time = 100000.000 ps
+#      Expected value = 0000
+#      Real value = 0111
+# ERROR! Vector Mismatch for output port Sv[1] :: @time = 100000.000 ps
+#      Expected value = 0000
+#      Real value = 0111
+# ERROR! Vector Mismatch for output port Sv[2] :: @time = 100000.000 ps
+#      Expected value = 0000
+#      Real value = 0111
+# ERROR! Vector Mismatch for output port Sv[3] :: @time = 112500.000 ps
+#      Expected value = 0000
+#      Real value = 1000
+#           4 mismatched vectors : Simulation failed !
+# ** Note: $finish    : somador_bin_par.vt(214)
+#    Time: 4 us  Iteration: 0  Instance: /somador_bin_par_vlg_vec_tst/tb_out
