@@ -1,0 +1,226 @@
+|somador_paralelo_4bits
+A1[0] => somador_bin_par:L1.Av[0]
+A1[1] => somador_bin_par:L1.Av[1]
+A1[2] => somador_bin_par:L1.Av[2]
+A1[3] => somador_bin_par:L1.Av[3]
+B1[0] => somador_bin_par:L1.Bv[0]
+B1[1] => somador_bin_par:L1.Bv[1]
+B1[2] => somador_bin_par:L1.Bv[2]
+B1[3] => somador_bin_par:L1.Bv[3]
+Cin => somador_bin_par:L1.C1in
+aS71 <= decoder_BCD_7seg:L3.aS7
+bS71 <= decoder_BCD_7seg:L3.bS7
+cS71 <= decoder_BCD_7seg:L3.cS7
+dS71 <= decoder_BCD_7seg:L3.dS7
+eS71 <= decoder_BCD_7seg:L3.eS7
+fS71 <= decoder_BCD_7seg:L3.fS7
+gS71 <= decoder_BCD_7seg:L3.gS7
+aS72 <= decoder_BCD_7seg:L4.aS7
+bS72 <= decoder_BCD_7seg:L4.bS7
+cS72 <= decoder_BCD_7seg:L4.cS7
+dS72 <= decoder_BCD_7seg:L4.dS7
+eS72 <= decoder_BCD_7seg:L4.eS7
+fS72 <= decoder_BCD_7seg:L4.fS7
+gS72 <= decoder_BCD_7seg:L4.gS7
+Cout <= somador_bin_par:L1.C1out
+
+
+|somador_paralelo_4bits|somador_bin_par:L1
+Av[0] => somador_completo:L1.A
+Av[1] => somador_completo:L2.A
+Av[2] => somador_completo:L3.A
+Av[3] => somador_completo:L4.A
+Bv[0] => somador_completo:L1.B
+Bv[1] => somador_completo:L2.B
+Bv[2] => somador_completo:L3.B
+Bv[3] => somador_completo:L4.B
+C1in => somador_completo:L1.Cin
+Sv[0] <= somador_completo:L1.S
+Sv[1] <= somador_completo:L2.S
+Sv[2] <= somador_completo:L3.S
+Sv[3] <= somador_completo:L4.S
+C1out <= somador_completo:L4.Cout
+
+
+|somador_paralelo_4bits|somador_bin_par:L1|somador_completo:L1
+A => S.IN0
+A => S.IN0
+A => Cout.IN0
+A => S.IN0
+A => S.IN0
+B => S.IN1
+B => S.IN1
+B => Cout.IN0
+B => S.IN1
+B => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => S.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_paralelo_4bits|somador_bin_par:L1|somador_completo:L2
+A => S.IN0
+A => S.IN0
+A => Cout.IN0
+A => S.IN0
+A => S.IN0
+B => S.IN1
+B => S.IN1
+B => Cout.IN0
+B => S.IN1
+B => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => S.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_paralelo_4bits|somador_bin_par:L1|somador_completo:L3
+A => S.IN0
+A => S.IN0
+A => Cout.IN0
+A => S.IN0
+A => S.IN0
+B => S.IN1
+B => S.IN1
+B => Cout.IN0
+B => S.IN1
+B => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => S.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_paralelo_4bits|somador_bin_par:L1|somador_completo:L4
+A => S.IN0
+A => S.IN0
+A => Cout.IN0
+A => S.IN0
+A => S.IN0
+B => S.IN1
+B => S.IN1
+B => Cout.IN0
+B => S.IN1
+B => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+Cin => S.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_paralelo_4bits|bcd:L2
+BIN[0] => BCD0[0].DATAIN
+BIN[1] => BCD0.IN0
+BIN[1] => BCD0.IN0
+BIN[1] => BCD1.IN0
+BIN[1] => BCD0.IN1
+BIN[1] => BCD0.IN1
+BIN[2] => BCD0.IN0
+BIN[2] => BCD0.IN0
+BIN[2] => BCD0.IN1
+BIN[2] => BCD0.IN0
+BIN[3] => BCD0.IN1
+BIN[3] => BCD0.IN1
+BIN[3] => BCD1.IN1
+BIN[3] => BCD0.IN1
+BIN[3] => BCD0.IN1
+BCD0[0] <= BIN[0].DB_MAX_OUTPUT_PORT_TYPE
+BCD0[1] <= BCD0.DB_MAX_OUTPUT_PORT_TYPE
+BCD0[2] <= BCD0.DB_MAX_OUTPUT_PORT_TYPE
+BCD0[3] <= BCD0.DB_MAX_OUTPUT_PORT_TYPE
+BCD1[0] <= BCD1.DB_MAX_OUTPUT_PORT_TYPE
+BCD1[1] <= <GND>
+BCD1[2] <= <GND>
+BCD1[3] <= <GND>
+
+
+|somador_paralelo_4bits|decoder_BCD_7seg:L3
+A => aS7.IN0
+A => dS7.IN1
+A => fS7.IN1
+A => gS7.IN1
+B => aS7.IN0
+B => cS7.IN1
+B => dS7.IN0
+B => fS7.IN0
+B => aS7.IN0
+B => bS7.IN1
+B => dS7.IN0
+C => aS7.IN1
+C => bS7.IN0
+C => dS7.IN0
+C => dS7.IN1
+C => bS7.IN0
+C => cS7.IN0
+C => dS7.IN1
+D => aS7.IN1
+D => bS7.IN1
+D => cS7.IN1
+D => dS7.IN1
+D => aS7.IN1
+D => bS7.IN1
+D => dS7.IN1
+D => fS7.IN1
+aS7 <= aS7.DB_MAX_OUTPUT_PORT_TYPE
+bS7 <= bS7.DB_MAX_OUTPUT_PORT_TYPE
+cS7 <= cS7.DB_MAX_OUTPUT_PORT_TYPE
+dS7 <= dS7.DB_MAX_OUTPUT_PORT_TYPE
+eS7 <= dS7.DB_MAX_OUTPUT_PORT_TYPE
+fS7 <= fS7.DB_MAX_OUTPUT_PORT_TYPE
+gS7 <= gS7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_paralelo_4bits|decoder_BCD_7seg:L4
+A => aS7.IN0
+A => dS7.IN1
+A => fS7.IN1
+A => gS7.IN1
+B => aS7.IN0
+B => cS7.IN1
+B => dS7.IN0
+B => fS7.IN0
+B => aS7.IN0
+B => bS7.IN1
+B => dS7.IN0
+C => aS7.IN1
+C => bS7.IN0
+C => dS7.IN0
+C => dS7.IN1
+C => bS7.IN0
+C => cS7.IN0
+C => dS7.IN1
+D => aS7.IN1
+D => bS7.IN1
+D => cS7.IN1
+D => dS7.IN1
+D => aS7.IN1
+D => bS7.IN1
+D => dS7.IN1
+D => fS7.IN1
+aS7 <= aS7.DB_MAX_OUTPUT_PORT_TYPE
+bS7 <= bS7.DB_MAX_OUTPUT_PORT_TYPE
+cS7 <= cS7.DB_MAX_OUTPUT_PORT_TYPE
+dS7 <= dS7.DB_MAX_OUTPUT_PORT_TYPE
+eS7 <= dS7.DB_MAX_OUTPUT_PORT_TYPE
+fS7 <= fS7.DB_MAX_OUTPUT_PORT_TYPE
+gS7 <= gS7.DB_MAX_OUTPUT_PORT_TYPE
+
+
