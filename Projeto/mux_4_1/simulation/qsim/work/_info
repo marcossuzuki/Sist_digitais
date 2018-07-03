@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\marco\Downloads\Projeto\Sist_digitais\Projeto\mux_4_1\simulation\qsim
+vmux_4_1
+Z1 !s100 TMz17?W6lVOIQdJR3<Q][3
+Z2 I8C=dJ4@mHJ=P4;T>j2P@Z2
+Z3 V:=:m]A]TOEm4;SY5`VGzS0
+Z4 dC:\Users\marco\Downloads\Projeto\Sist_digitais\Projeto\mux_4_1\simulation\qsim
+Z5 w1530572457
+Z6 8mux_4_1.vo
+Z7 Fmux_4_1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|mux_4_1.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1530572458.686000
+Z12 !s107 mux_4_1.vo|
+!s101 -O0
+vmux_4_1_vlg_check_tst
+!i10b 1
+Z13 !s100 lTo@Qin^h07:NcY:Pm@9]1
+Z14 I>We1jb]GcX2OZh]Hdd=]L3
+Z15 VaFebU>]HGodonJcG<58?I0
+R4
+R5
+Z16 8mux_4_1.vt
+Z17 Fmux_4_1.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z18 !s108 1530572458.773000
+Z19 !s107 mux_4_1.vt|
+Z20 !s90 -work|work|mux_4_1.vt|
+!s101 -O0
+R10
+vmux_4_1_vlg_sample_tst
+!i10b 1
+Z21 !s100 B6Xn68NG2hOV>DBeO]`nV3
+Z22 Id1BI2W?9;2BL`JF8KmE9b2
+Z23 V1]O`dzHX>CIUcX9U;SmV^2
+R4
+R5
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+vmux_4_1_vlg_vec_tst
+!i10b 1
+!s100 Dkf7?d9PD9PL>LkB<GbBR3
+IWaS47FcPP_C4:V11CiTQZ0
+Z24 VneU3f:QnDF:H>WMzVK`873
+R4
+R5
+R16
+R17
+Z25 L0 154
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10

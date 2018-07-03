@@ -1,6 +1,6 @@
 Assembler report for bcd
-Mon Jun 25 20:58:45 2018
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Mon Jul 02 21:28:22 2018
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/marcos.suzuki/Documents/bcd/output_files/bcd.sof
-  6. Assembler Device Options: C:/Users/marcos.suzuki/Documents/bcd/output_files/bcd.pof
+  5. Assembler Device Options: C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd/output_files/bcd.sof
+  6. Assembler Device Options: C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd/output_files/bcd.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Mon Jun 25 20:58:45 2018 ;
+; Assembler Status      ; Successful - Mon Jul 02 21:28:22 2018 ;
 ; Revision Name         ; bcd                                   ;
 ; Top-level Entity Name ; bcd                                   ;
 ; Family                ; Cyclone II                            ;
@@ -78,37 +78,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-----------------------------------------------------------+
-; Assembler Generated Files                                 ;
-+-----------------------------------------------------------+
-; File Name                                                 ;
-+-----------------------------------------------------------+
-; C:/Users/marcos.suzuki/Documents/bcd/output_files/bcd.sof ;
-; C:/Users/marcos.suzuki/Documents/bcd/output_files/bcd.pof ;
-+-----------------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Assembler Generated Files                                                       ;
++---------------------------------------------------------------------------------+
+; File Name                                                                       ;
++---------------------------------------------------------------------------------+
+; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd/output_files/bcd.sof ;
+; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd/output_files/bcd.pof ;
++---------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/marcos.suzuki/Documents/bcd/output_files/bcd.sof ;
-+----------------+--------------------------------------------------------------------+
-; Option         ; Setting                                                            ;
-+----------------+--------------------------------------------------------------------+
-; Device         ; EP2C20F484C7                                                       ;
-; JTAG usercode  ; 0x001B12FA                                                         ;
-; Checksum       ; 0x001B12FA                                                         ;
-+----------------+--------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd/output_files/bcd.sof ;
++----------------+------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                  ;
++----------------+------------------------------------------------------------------------------------------+
+; Device         ; EP2C20F484C7                                                                             ;
+; JTAG usercode  ; 0x001B12FA                                                                               ;
+; Checksum       ; 0x001B12FA                                                                               ;
++----------------+------------------------------------------------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/marcos.suzuki/Documents/bcd/output_files/bcd.pof ;
-+--------------------+----------------------------------------------------------------+
-; Option             ; Setting                                                        ;
-+--------------------+----------------------------------------------------------------+
-; Device             ; EPCS16                                                         ;
-; JTAG usercode      ; 0x00000000                                                     ;
-; Checksum           ; 0x1DD9B6B3                                                     ;
-; Compression Ratio  ; 3                                                              ;
-+--------------------+----------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd/output_files/bcd.pof ;
++--------------------+--------------------------------------------------------------------------------------+
+; Option             ; Setting                                                                              ;
++--------------------+--------------------------------------------------------------------------------------+
+; Device             ; EPCS16                                                                               ;
+; JTAG usercode      ; 0x00000000                                                                           ;
+; Checksum           ; 0x1DD9B6B3                                                                           ;
+; Compression Ratio  ; 3                                                                                    ;
++--------------------+--------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -116,15 +116,15 @@ applicable agreement for further details.
 +--------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
-    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Jun 25 20:58:43 2018
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Mon Jul 02 21:28:21 2018
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off bcd -c bcd
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 412 megabytes
-    Info: Processing ended: Mon Jun 25 20:58:45 2018
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4566 megabytes
+    Info: Processing ended: Mon Jul 02 21:28:22 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

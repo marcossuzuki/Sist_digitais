@@ -1,6 +1,6 @@
 EDA Netlist Writer report for bcd_behavioral
-Mon Jul 02 20:16:37 2018
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Mon Jul 02 22:09:10 2018
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Jul 02 20:16:37 2018 ;
+; EDA Netlist Writer Status ; Successful - Mon Jul 02 22:09:10 2018 ;
 ; Revision Name             ; bcd_behavioral                        ;
 ; Top-level Entity Name     ; bcd_behavioral                        ;
 ; Family                    ; Cyclone II                            ;
@@ -65,13 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                         ;
-+--------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                    ;
-+--------------------------------------------------------------------------------------------------------------------+
-; C:/Users/marcos.suzuki/Downloads/Sist_digitais-master/Projeto/bcd_behavioral/simulation/modelsim/bcd_behavioral.vo ;
-+--------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                  ;
++-------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                             ;
++-------------------------------------------------------------------------------------------------------------+
+; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd_behavioral/simulation/modelsim/bcd_behavioral.vo ;
++-------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -79,14 +79,14 @@ applicable agreement for further details.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
-    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Mon Jul 02 20:16:36 2018
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Mon Jul 02 22:09:10 2018
 Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog bcd_behavioral -c bcd_behavioral
-Info (204019): Generated file bcd_behavioral.vo in folder "C:/Users/marcos.suzuki/Downloads/Sist_digitais-master/Projeto/bcd_behavioral/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file bcd_behavioral.vo in folder "C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd_behavioral/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 380 megabytes
-    Info: Processing ended: Mon Jul 02 20:16:37 2018
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4539 megabytes
+    Info: Processing ended: Mon Jul 02 22:09:10 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\marco\Downloads\Projeto\Sist_digitais\Projeto\decoder_BCD_7seg\simulation\qsim
+vdecoder_BCD_7seg
+Z1 IACb8]ER[O616WLi8>M;LC2
+Z2 Vld[^oP[Q>>ca<4XL4ZNe=1
+Z3 dC:\Users\marco\Downloads\Projeto\Sist_digitais\Projeto\decoder_BCD_7seg\simulation\qsim
+Z4 w1530574119
+Z5 8decoder_BCD_7seg.vo
+Z6 Fdecoder_BCD_7seg.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|decoder_BCD_7seg.vo|
+Z9 o-work work -O0
+Z10 ndecoder_@b@c@d_7seg
+!i10b 1
+Z11 !s100 dDUN_6oD?a9Ei4PkFQ>Fa0
+!s85 0
+Z12 !s108 1530574120.760000
+Z13 !s107 decoder_BCD_7seg.vo|
+!s101 -O0
+vdecoder_BCD_7seg_vlg_check_tst
+!i10b 1
+Z14 !s100 R[5_LVdCBe`ikV>0eYBEM3
+Z15 IN=8WKPEUUSLjBA;<=QL?e3
+Z16 VZRJ7N@:Xe^V:[1C[R0]G80
+R3
+R4
+Z17 8decoder_BCD_7seg.vt
+Z18 Fdecoder_BCD_7seg.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z19 !s108 1530574120.867000
+Z20 !s107 decoder_BCD_7seg.vt|
+Z21 !s90 -work|work|decoder_BCD_7seg.vt|
+!s101 -O0
+R9
+Z22 ndecoder_@b@c@d_7seg_vlg_check_tst
+vdecoder_BCD_7seg_vlg_sample_tst
+!i10b 1
+Z23 !s100 IM[H_075fn0^:V4;9LDlI1
+Z24 IzEHjUcLmhiXe]WV]zMH]j3
+Z25 V8AMfbX`C=Y=n:RSFO=J^c0
+R3
+R4
+R17
+R18
+L0 29
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z26 ndecoder_@b@c@d_7seg_vlg_sample_tst
+vdecoder_BCD_7seg_vlg_vec_tst
+!i10b 1
+Z27 !s100 0_z_@@LgoM?C>S8]bh7N=0
+Z28 I<eO=GI1CR2OQ`NdN2M<PD1
+Z29 VmU:6]a<lGO[0_dC^YXgB32
+R3
+R4
+R17
+R18
+Z30 L0 320
+R7
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R9
+Z31 ndecoder_@b@c@d_7seg_vlg_vec_tst

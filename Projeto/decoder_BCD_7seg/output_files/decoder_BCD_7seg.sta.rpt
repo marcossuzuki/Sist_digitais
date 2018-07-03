@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for decoder_BCD_7seg
-Mon Jul 02 11:47:25 2018
+Mon Jul 02 20:28:24 2018
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -139,14 +139,14 @@ No paths to report.
 ; B          ; gS7         ; 10.978 ; 10.978 ; 10.978 ; 10.978 ;
 ; C          ; aS7         ; 12.235 ;        ;        ; 12.235 ;
 ; C          ; bS7         ; 10.390 ; 10.390 ; 10.390 ; 10.390 ;
-; C          ; cS7         ;        ; 10.609 ; 10.609 ;        ;
+; C          ; cS7         ;        ; 10.639 ; 10.639 ;        ;
 ; C          ; dS7         ; 10.601 ; 10.601 ; 10.601 ; 10.601 ;
 ; C          ; eS7         ; 11.182 ;        ;        ; 11.182 ;
 ; C          ; fS7         ;        ; 10.185 ; 10.185 ;        ;
 ; C          ; gS7         ; 10.156 ; 10.156 ; 10.156 ; 10.156 ;
 ; D          ; aS7         ; 13.600 ; 13.600 ; 13.600 ; 13.600 ;
 ; D          ; bS7         ; 11.256 ; 11.256 ; 11.256 ; 11.256 ;
-; D          ; cS7         ; 11.504 ;        ;        ; 11.504 ;
+; D          ; cS7         ; 11.463 ;        ;        ; 11.463 ;
 ; D          ; dS7         ; 11.907 ; 11.907 ; 11.907 ; 11.907 ;
 ; D          ; eS7         ;        ; 12.048 ; 12.048 ;        ;
 ; D          ; fS7         ;        ; 11.504 ; 11.504 ;        ;
@@ -172,14 +172,14 @@ No paths to report.
 ; B          ; gS7         ; 10.978 ; 10.978 ; 10.978 ; 10.978 ;
 ; C          ; aS7         ; 12.235 ;        ;        ; 12.235 ;
 ; C          ; bS7         ; 10.390 ; 10.390 ; 10.390 ; 10.390 ;
-; C          ; cS7         ;        ; 10.609 ; 10.609 ;        ;
+; C          ; cS7         ;        ; 10.639 ; 10.639 ;        ;
 ; C          ; dS7         ; 10.601 ; 10.601 ; 10.601 ; 10.601 ;
 ; C          ; eS7         ; 11.182 ;        ;        ; 11.182 ;
 ; C          ; fS7         ;        ; 10.185 ; 10.185 ;        ;
 ; C          ; gS7         ; 10.156 ; 10.156 ; 10.156 ; 10.156 ;
 ; D          ; aS7         ; 13.600 ; 13.600 ; 13.600 ; 13.600 ;
 ; D          ; bS7         ; 11.256 ; 11.256 ; 11.256 ; 11.256 ;
-; D          ; cS7         ; 11.504 ;        ;        ; 11.504 ;
+; D          ; cS7         ; 11.463 ;        ;        ; 11.463 ;
 ; D          ; dS7         ; 11.907 ; 11.907 ; 11.907 ; 11.907 ;
 ; D          ; eS7         ;        ; 12.048 ; 12.048 ;        ;
 ; D          ; fS7         ;        ; 11.504 ; 11.504 ;        ;
@@ -311,14 +311,14 @@ No paths to report.
 ; B          ; gS7         ; 10.978 ; 10.978 ; 10.978 ; 10.978 ;
 ; C          ; aS7         ; 12.235 ;        ;        ; 12.235 ;
 ; C          ; bS7         ; 10.390 ; 10.390 ; 10.390 ; 10.390 ;
-; C          ; cS7         ;        ; 10.609 ; 10.609 ;        ;
+; C          ; cS7         ;        ; 10.639 ; 10.639 ;        ;
 ; C          ; dS7         ; 10.601 ; 10.601 ; 10.601 ; 10.601 ;
 ; C          ; eS7         ; 11.182 ;        ;        ; 11.182 ;
 ; C          ; fS7         ;        ; 10.185 ; 10.185 ;        ;
 ; C          ; gS7         ; 10.156 ; 10.156 ; 10.156 ; 10.156 ;
 ; D          ; aS7         ; 13.600 ; 13.600 ; 13.600 ; 13.600 ;
 ; D          ; bS7         ; 11.256 ; 11.256 ; 11.256 ; 11.256 ;
-; D          ; cS7         ; 11.504 ;        ;        ; 11.504 ;
+; D          ; cS7         ; 11.463 ;        ;        ; 11.463 ;
 ; D          ; dS7         ; 11.907 ; 11.907 ; 11.907 ; 11.907 ;
 ; D          ; eS7         ;        ; 12.048 ; 12.048 ;        ;
 ; D          ; fS7         ;        ; 11.504 ; 11.504 ;        ;
@@ -397,7 +397,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Mon Jul 02 11:47:24 2018
+    Info: Processing started: Mon Jul 02 20:28:24 2018
 Info: Command: quartus_sta decoder_BCD_7seg -c decoder_BCD_7seg
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -430,9 +430,9 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4559 megabytes
-    Info: Processing ended: Mon Jul 02 11:47:25 2018
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:00
+    Info: Peak virtual memory: 4571 megabytes
+    Info: Processing ended: Mon Jul 02 20:28:24 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -4,22 +4,22 @@ K3
 cModel Technology
 Z0 dC:\Users\marcos.suzuki\Downloads\Sist_digitais-master\Projeto\bcd_behavioral\simulation\qsim
 vbcd_behavioral
-Z1 I85mIKPUc?WZ897Kc_][UO2
-Z2 VN@Hla6dbC4ZNL2gODd_kK2
-Z3 dC:\Users\marcos.suzuki\Downloads\Sist_digitais-master\Projeto\bcd_behavioral\simulation\qsim
-Z4 w1530573397
-Z5 8bcd_behavioral.vo
-Z6 Fbcd_behavioral.vo
+Z1 !s100 _Y_[T259Tc5kdn_;Ec7@g0
+Z2 I85mIKPUc?WZ897Kc_][UO2
+Z3 VN@Hla6dbC4ZNL2gODd_kK2
+Z4 dC:\Users\marco\Downloads\Projeto\Sist_digitais\Projeto\bcd_behavioral\simulation\qsim
+Z5 w1530580150
+Z6 8bcd_behavioral.vo
+Z7 Fbcd_behavioral.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 !s90 -work|work|bcd_behavioral.vo|
-Z9 o-work work -O0
+Z9 !s90 -work|work|bcd_behavioral.vo|
+Z10 o-work work -O0
 !i10b 1
-Z10 !s100 _Y_[T259Tc5kdn_;Ec7@g0
 !s85 0
-Z11 !s108 1530573398.144000
+Z11 !s108 1530580151.505000
 Z12 !s107 bcd_behavioral.vo|
 !s101 -O0
 vbcd_behavioral_vlg_check_tst
@@ -27,55 +27,55 @@ vbcd_behavioral_vlg_check_tst
 Z13 !s100 ZkA8kC]iKiHHN6NeEjfoF3
 Z14 ICcnZ12LNG4K>CJ0_RNMX01
 Z15 V616zfGlQ_?3ONLhAn@Q0a2
-R3
-Z16 w1530573396
-Z17 8bcd_behavioral.vt
-Z18 Fbcd_behavioral.vt
+R4
+R5
+Z16 8bcd_behavioral.vt
+Z17 Fbcd_behavioral.vt
 L0 57
-R7
+R8
 r1
 !s85 0
 31
-Z19 !s108 1530573398.409000
-Z20 !s107 bcd_behavioral.vt|
-Z21 !s90 -work|work|bcd_behavioral.vt|
+Z18 !s108 1530580151.668000
+Z19 !s107 bcd_behavioral.vt|
+Z20 !s90 -work|work|bcd_behavioral.vt|
 !s101 -O0
-R9
+R10
 vbcd_behavioral_vlg_sample_tst
 !i10b 1
-Z22 !s100 OL]0cUjIZLiW;4?QCKU:n0
-Z23 ITTEC>naOVHK@QeH5jWalD1
-Z24 V8V1OZnU]Kf;PM?A8?k@5[3
-R3
+Z21 !s100 OL]0cUjIZLiW;4?QCKU:n0
+Z22 ITTEC>naOVHK@QeH5jWalD1
+Z23 V8V1OZnU]Kf;PM?A8?k@5[3
+R4
+R5
 R16
 R17
-R18
 L0 29
-R7
+R8
 r1
 !s85 0
 31
+R18
 R19
 R20
-R21
 !s101 -O0
-R9
+R10
 vbcd_behavioral_vlg_vec_tst
 !i10b 1
-Z25 !s100 dbG25Y9_]bH1W?:azDR442
-Z26 Iz>0H<kT7icLV<?2A2SCf20
-Z27 VHQ?Zh5j;BU;^1?NIRb_jb2
-R3
+Z24 !s100 dbG25Y9_]bH1W?:azDR442
+Z25 Iz>0H<kT7icLV<?2A2SCf20
+Z26 VHQ?Zh5j;BU;^1?NIRb_jb2
+R4
+R5
 R16
 R17
-R18
-Z28 L0 277
-R7
+Z27 L0 277
+R8
 r1
 !s85 0
 31
+R18
 R19
 R20
-R21
 !s101 -O0
-R9
+R10

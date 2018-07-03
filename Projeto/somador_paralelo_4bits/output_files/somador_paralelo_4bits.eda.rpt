@@ -1,6 +1,6 @@
 EDA Netlist Writer report for somador_paralelo_4bits
-Mon Jul 02 15:14:02 2018
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+Mon Jul 02 21:47:10 2018
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Jul 02 15:14:02 2018 ;
+; EDA Netlist Writer Status ; Successful - Mon Jul 02 21:47:10 2018 ;
 ; Revision Name             ; somador_paralelo_4bits                ;
 ; Top-level Entity Name     ; somador_paralelo_4bits                ;
 ; Family                    ; Cyclone II                            ;
@@ -44,38 +44,34 @@ applicable agreement for further details.
 +---------------------------+---------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                        ;
-+---------------------------------------------------------------------------------------------------+------------------------+
-; Option                                                                                            ; Setting                ;
-+---------------------------------------------------------------------------------------------------+------------------------+
-; Tool Name                                                                                         ; ModelSim-Altera (VHDL) ;
-; Generate netlist for functional simulation only                                                   ; Off                    ;
-; Time scale                                                                                        ; 1 ps                   ;
-; Truncate long hierarchy paths                                                                     ; Off                    ;
-; Map illegal HDL characters                                                                        ; Off                    ;
-; Flatten buses into individual nodes                                                               ; Off                    ;
-; Maintain hierarchy                                                                                ; Off                    ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                    ;
-; Enable glitch filtering                                                                           ; Off                    ;
-; Do not write top level VHDL entity                                                                ; Off                    ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                    ;
-; Architecture name in VHDL output netlist                                                          ; structure              ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                    ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                    ;
-+---------------------------------------------------------------------------------------------------+------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; On                        ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                 ;
-+----------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                            ;
-+----------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_paralelo_4bits/simulation/modelsim/somador_paralelo_4bits.vho          ;
-; C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_paralelo_4bits/simulation/modelsim/somador_paralelo_4bits_fast.vho     ;
-; C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_paralelo_4bits/simulation/modelsim/somador_paralelo_4bits_vhd.sdo      ;
-; C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_paralelo_4bits/simulation/modelsim/somador_paralelo_4bits_vhd_fast.sdo ;
-+----------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                  ;
++-----------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                             ;
++-----------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/somador_paralelo_4bits/simulation/modelsim/somador_paralelo_4bits.vo ;
++-----------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -83,14 +79,14 @@ applicable agreement for further details.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
-    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Mon Jul 02 15:14:01 2018
-Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off somador_paralelo_4bits -c somador_paralelo_4bits
-Info (204026): Generated files "somador_paralelo_4bits.vho", "somador_paralelo_4bits_fast.vho", "somador_paralelo_4bits_vhd.sdo" and "somador_paralelo_4bits_vhd_fast.sdo" in directory "C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_paralelo_4bits/simulation/modelsim/" for EDA simulation tool
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Mon Jul 02 21:47:10 2018
+Info: Command: quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog somador_paralelo_4bits -c somador_paralelo_4bits
+Info (204019): Generated file somador_paralelo_4bits.vo in folder "C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/somador_paralelo_4bits/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4539 megabytes
-    Info: Processing ended: Mon Jul 02 15:14:02 2018
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Mon Jul 02 21:47:10 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
 
 

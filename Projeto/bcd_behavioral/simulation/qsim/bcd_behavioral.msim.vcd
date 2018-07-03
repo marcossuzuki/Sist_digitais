@@ -3,7 +3,7 @@ $comment
 		vcd file bcd_behavioral.msim.vcd -direction
 $end
 $date
-	Mon Jul 02 20:16:39 2018
+	Mon Jul 02 22:09:11 2018
 $end
 $version
 	ModelSim Version 10.1d

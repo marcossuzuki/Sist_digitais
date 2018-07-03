@@ -1,6 +1,6 @@
 Analysis & Synthesis report for somador_paralelo_4bits
-Mon Jul 02 15:13:51 2018
-Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+Mon Jul 02 21:46:50 2018
+Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -38,24 +38,24 @@ applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                                          ;
-+------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Jul 02 15:13:51 2018            ;
-; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
-; Revision Name                      ; somador_paralelo_4bits                           ;
-; Top-level Entity Name              ; somador_paralelo_4bits                           ;
-; Family                             ; Cyclone II                                       ;
-; Total logic elements               ; 13                                               ;
-;     Total combinational functions  ; 13                                               ;
-;     Dedicated logic registers      ; 0                                                ;
-; Total registers                    ; 0                                                ;
-; Total pins                         ; 24                                               ;
-; Total virtual pins                 ; 0                                                ;
-; Total memory bits                  ; 0                                                ;
-; Embedded Multiplier 9-bit elements ; 0                                                ;
-; Total PLLs                         ; 0                                                ;
-+------------------------------------+--------------------------------------------------+
++---------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                    ;
++------------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Mon Jul 02 21:46:50 2018      ;
+; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Revision Name                      ; somador_paralelo_4bits                     ;
+; Top-level Entity Name              ; somador_paralelo_4bits                     ;
+; Family                             ; Cyclone II                                 ;
+; Total logic elements               ; 13                                         ;
+;     Total combinational functions  ; 13                                         ;
+;     Dedicated logic registers      ; 0                                          ;
+; Total registers                    ; 0                                          ;
+; Total pins                         ; 24                                         ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0                                          ;
+; Embedded Multiplier 9-bit elements ; 0                                          ;
+; Total PLLs                         ; 0                                          ;
++------------------------------------+--------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------+
@@ -143,34 +143,28 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+------------------------+------------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
-+----------------------------+-------------+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                 ;
-+------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path         ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                  ; Library ;
-+------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------+---------+
-; ../somador_completo/somador_completo.vhd ; yes             ; User VHDL File  ; C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_completo/somador_completo.vhd             ;         ;
-; ../somador_bin_par/somador_bin_par.vhd   ; yes             ; User VHDL File  ; C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_bin_par/somador_bin_par.vhd               ;         ;
-; ../bcd/bcd.vhd                           ; yes             ; User VHDL File  ; C:/Users/marcossuzuki/Sist_digitais/Projeto/bcd/bcd.vhd                                       ;         ;
-; ../decoder_BCD_7seg/decoder_BCD_7seg.vhd ; yes             ; User VHDL File  ; C:/Users/marcossuzuki/Sist_digitais/Projeto/decoder_BCD_7seg/decoder_BCD_7seg.vhd             ;         ;
-; somador_paralelo_4bits.vhd               ; yes             ; User VHDL File  ; C:/Users/marcossuzuki/Sist_digitais/Projeto/somador_paralelo_4bits/somador_paralelo_4bits.vhd ;         ;
-+------------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                            ;
++------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path         ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                             ; Library ;
++------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+---------+
+; ../somador_completo/somador_completo.vhd ; yes             ; User VHDL File  ; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/somador_completo/somador_completo.vhd             ;         ;
+; ../somador_bin_par/somador_bin_par.vhd   ; yes             ; User VHDL File  ; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/somador_bin_par/somador_bin_par.vhd               ;         ;
+; ../bcd/bcd.vhd                           ; yes             ; User VHDL File  ; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/bcd/bcd.vhd                                       ;         ;
+; ../decoder_BCD_7seg/decoder_BCD_7seg.vhd ; yes             ; User VHDL File  ; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/decoder_BCD_7seg/decoder_BCD_7seg.vhd             ;         ;
+; somador_paralelo_4bits.vhd               ; yes             ; User VHDL File  ; C:/Users/marco/Downloads/Projeto/Sist_digitais/Projeto/somador_paralelo_4bits/somador_paralelo_4bits.vhd ;         ;
++------------------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------------------+
@@ -183,8 +177,8 @@ applicable agreement for further details.
 ; Total combinational functions               ; 13                                         ;
 ; Logic element usage by number of LUT inputs ;                                            ;
 ;     -- 4 input functions                    ; 3                                          ;
-;     -- 3 input functions                    ; 7                                          ;
-;     -- <=2 input functions                  ; 3                                          ;
+;     -- 3 input functions                    ; 8                                          ;
+;     -- <=2 input functions                  ; 2                                          ;
 ;                                             ;                                            ;
 ; Logic elements by mode                      ;                                            ;
 ;     -- normal mode                          ; 8                                          ;
@@ -198,8 +192,8 @@ applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0                                          ;
 ; Maximum fan-out node                        ; somador_bin_par:L1|somador_completo:L1|S~4 ;
 ; Maximum fan-out                             ; 8                                          ;
-; Total fan-out                               ; 46                                         ;
-; Average fan-out                             ; 1.24                                       ;
+; Total fan-out                               ; 47                                         ;
+; Average fan-out                             ; 1.27                                       ;
 +---------------------------------------------+--------------------------------------------+
 
 
@@ -208,11 +202,11 @@ applicable agreement for further details.
 +-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                            ; Library Name ;
 +-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
-; |somador_paralelo_4bits     ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 24   ; 0            ; |somador_paralelo_4bits                                        ; work         ;
-;    |bcd:L2|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|bcd:L2                                 ; work         ;
-;    |decoder_BCD_7seg:L3|    ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|decoder_BCD_7seg:L3                    ; work         ;
-;    |somador_bin_par:L1|     ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|somador_bin_par:L1                     ; work         ;
-;       |somador_completo:L1| ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|somador_bin_par:L1|somador_completo:L1 ; work         ;
+; |somador_paralelo_4bits     ; 13 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 24   ; 0            ; |somador_paralelo_4bits                                        ;              ;
+;    |bcd:L2|                 ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|bcd:L2                                 ;              ;
+;    |decoder_BCD_7seg:L3|    ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|decoder_BCD_7seg:L3                    ;              ;
+;    |somador_bin_par:L1|     ; 6 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|somador_bin_par:L1                     ;              ;
+;       |somador_completo:L1| ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |somador_paralelo_4bits|somador_bin_par:L1|somador_completo:L1 ;              ;
 +-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -246,20 +240,20 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
-    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Mon Jul 02 15:13:49 2018
+    Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+    Info: Processing started: Mon Jul 02 21:46:49 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off somador_paralelo_4bits -c somador_paralelo_4bits
-Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
-Info (12021): Found 2 design units, including 1 entities, in source file /users/marcossuzuki/sist_digitais/projeto/somador_completo/somador_completo.vhd
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marco/downloads/projeto/sist_digitais/projeto/somador_completo/somador_completo.vhd
     Info (12022): Found design unit 1: somador_completo-LogicFunction
     Info (12023): Found entity 1: somador_completo
-Info (12021): Found 2 design units, including 1 entities, in source file /users/marcossuzuki/sist_digitais/projeto/somador_bin_par/somador_bin_par.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marco/downloads/projeto/sist_digitais/projeto/somador_bin_par/somador_bin_par.vhd
     Info (12022): Found design unit 1: somador_bin_par-LogicFunction
     Info (12023): Found entity 1: somador_bin_par
-Info (12021): Found 2 design units, including 1 entities, in source file /users/marcossuzuki/sist_digitais/projeto/bcd/bcd.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marco/downloads/projeto/sist_digitais/projeto/bcd/bcd.vhd
     Info (12022): Found design unit 1: bcd-LogicFunction
     Info (12023): Found entity 1: bcd
-Info (12021): Found 2 design units, including 1 entities, in source file /users/marcossuzuki/sist_digitais/projeto/decoder_bcd_7seg/decoder_bcd_7seg.vhd
+Info (12021): Found 2 design units, including 1 entities, in source file /users/marco/downloads/projeto/sist_digitais/projeto/decoder_bcd_7seg/decoder_bcd_7seg.vhd
     Info (12022): Found design unit 1: decoder_BCD_7seg-LogicFunction
     Info (12023): Found entity 1: decoder_BCD_7seg
 Info (12021): Found 2 design units, including 1 entities, in source file somador_paralelo_4bits.vhd
@@ -273,7 +267,7 @@ Info (12128): Elaborating entity "decoder_BCD_7seg" for hierarchy "decoder_BCD_7
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "aS72" is stuck at VCC
     Warning (13410): Pin "bS72" is stuck at VCC
-    Warning (13410): Pin "cS72" is stuck at GND
+    Warning (13410): Pin "cS72" is stuck at VCC
     Warning (13410): Pin "dS72" is stuck at VCC
     Warning (13410): Pin "eS72" is stuck at VCC
     Warning (13410): Pin "fS72" is stuck at VCC
@@ -283,10 +277,10 @@ Info (21057): Implemented 37 device resources after synthesis - the final resour
     Info (21058): Implemented 9 input pins
     Info (21059): Implemented 15 output pins
     Info (21061): Implemented 13 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 7 warnings
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 8 warnings
     Info: Peak virtual memory: 4659 megabytes
-    Info: Processing ended: Mon Jul 02 15:13:51 2018
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Processing ended: Mon Jul 02 21:46:50 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 
